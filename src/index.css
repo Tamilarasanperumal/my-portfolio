@@ -1,0 +1,48 @@
+@import "tailwindcss";
+:root {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    color: #f8fafc;
+    background: #070b17;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #070b17;
+    overflow-x: hidden;
+}
+::selection {
+    background: #8b5cf6;
+    color: white;
+}
+.bg-grid {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 42px 42px;
+}
+.glass {
+    background: rgba(15, 23, 42, 0.62);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+}
+.orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(90px);
+    opacity: 0.35;
+    pointer-events: none;
+}
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 24px;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #a78bfa, #22d3ee, #818cf8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
