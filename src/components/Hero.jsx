@@ -38,13 +38,11 @@ const heroImages = [
         src: "/images/iknits.png",
         title: "Full Stack Developer",
         subtitle: "Web • Backend • Mysql",
-
     },
     {
         src: "/images/ticket.png",
         title: "Full Stack Developer",
         subtitle: "Web • Backend • Mysql",
-
     },
     {
         src: "/images/coding.png",
@@ -282,10 +280,11 @@ export default function Hero() {
                                     setActiveImage(index);
                                 }}
                                 aria-label={`Show image ${index + 1}`}
-                                className={`h-1.5 rounded-full transition-all duration-300 ${activeImage === index
-                                    ? "w-6 bg-white"
-                                    : "w-1.5 bg-white/40 hover:bg-white/70"
-                                    }`}
+                                className={`h-1.5 rounded-full transition-all duration-300 ${
+                                    activeImage === index
+                                        ? "w-6 bg-white"
+                                        : "w-1.5 bg-white/40 hover:bg-white/70"
+                                }`}
                             />
                         ))}
                     </div>
