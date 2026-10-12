@@ -1,10 +1,8 @@
-
 export const profile = {
     name: "Tamilarasan Perumal",
     role: "React & React Native Developer",
-    tagline:
-        "I build modern, fast and scalable web and mobile applications.",
-    email: "perumaltamilarasan08111994@gmail.com",
+    tagline: "I build modern, fast and scalable web and mobile applications.",
+    email: "tamilarasanperumal.dev@gmail.com",
     location: "Tamil Nadu, India",
     github: "https://github.com/tamilarasanperumal",
     linkedin: "https://www.linkedin.com/Tamilarasanperumal",
@@ -29,7 +27,8 @@ export const skills = [
 export const skillCategories = [
     {
         title: "Frontend",
-        description: "Building responsive and modern web and mobile interfaces.",
+        description:
+            "Building responsive and modern web and mobile interfaces.",
         skills: [
             {
                 name: "React.js",
@@ -71,7 +70,8 @@ export const skillCategories = [
 
     {
         title: "Backend",
-        description: "Developing APIs, business logic, and database-driven applications.",
+        description:
+            "Developing APIs, business logic, and database-driven applications.",
         skills: [
             {
                 name: "Node.js",
@@ -103,7 +103,8 @@ export const skillCategories = [
 
     {
         title: "Libraries & Developer Tools",
-        description: "Libraries and tools I use to build, manage, test, and ship applications.",
+        description:
+            "Libraries and tools I use to build, manage, test, and ship applications.",
         skills: [
             {
                 name: "Redux Toolkit",
@@ -140,7 +141,8 @@ export const skillCategories = [
 
     {
         title: "AI Tools",
-        description: "AI-powered tools I use for development, debugging, research, and productivity.",
+        description:
+            "AI-powered tools I use for development, debugging, research, and productivity.",
         skills: [
             {
                 name: "ChatGPT",
@@ -166,10 +168,6 @@ export const skillCategories = [
     },
 ];
 
-
-
-
-
 export const projects = [
     {
         title: "YourFarm Mobile App",
@@ -179,22 +177,15 @@ export const projects = [
         description:
             "A livestock and animal healthcare mobile platform that helps farmers access veterinary support, animal disease diagnosis, herbal treatment solutions, veterinary appointments, farming resources, and an online marketplace for livestock and farm-related products.",
 
-        tags: [
-            "React Native",
-            "JavaScript",
-            "REST API",
-            "Android",
-        ],
+        tags: ["React Native", "JavaScript", "REST API", "Android"],
 
         image: "/images/projects/yourfarm-mobile.jpg",
 
         video: "/videos/yourfarm-mobile.mp4",
 
-        accent:
-            "from-green-500 via-emerald-600 to-teal-800",
+        accent: "from-green-500 via-emerald-600 to-teal-800",
 
-        url:
-            "https://play.google.com/store/apps/details?id=com.yourfarm",
+        url: "https://play.google.com/store/apps/details?id=com.yourfarm",
 
         isMobile: true,
     },
@@ -207,19 +198,13 @@ export const projects = [
         description:
             "A web-based management platform for the YourFarm ecosystem, supporting business operations, user management, dairy management, order processing, product management, addresses, shipping, and other administrative workflows through API-driven interfaces.",
 
-        tags: [
-            "React.js",
-            "Material UI",
-            "REST API",
-            "Responsive UI",
-        ],
+        tags: ["React.js", "Material UI", "REST API", "Responsive UI"],
 
         image: "/images/projects/yourfarm-web.jpg",
 
         video: "/videos/yourfarm-web.mp4",
 
-        accent:
-            "from-blue-500 via-indigo-600 to-violet-800",
+        accent: "from-blue-500 via-indigo-600 to-violet-800",
 
         url: "https://webadmin.yourfarm.co.in/dashboard",
 
@@ -243,17 +228,13 @@ export const projects = [
             "MySQL",
         ],
 
-        image:
-            "/images/projects/universal-associates.jpg",
+        image: "/images/projects/universal-associates.jpg",
 
-        video:
-            "/videos/universal-associates.mp4",
+        video: "/videos/universal-associates.mp4",
 
-        accent:
-            "from-orange-500 via-red-600 to-rose-800",
+        accent: "from-orange-500 via-red-600 to-rose-800",
 
-        url:
-            "https://universalassociates.pinnaclesystems.co.in/",
+        url: "https://universalassociates.pinnaclesystems.co.in/",
 
         isMobile: false,
     },
@@ -266,19 +247,13 @@ export const projects = [
         description:
             "An ecommerce and livestock-focused web platform where users can explore animal healthcare information, veterinary services, herbal products, farming resources, marketplace products, blogs, and educational farming content.",
 
-        tags: [
-            "React.js",
-            "Material UI",
-            "REST API",
-            "Responsive UI",
-        ],
+        tags: ["React.js", "Material UI", "REST API", "Responsive UI"],
 
         image: "/images/projects/website.jpg",
 
         video: "/videos/yourfarm-web.mp4",
 
-        accent:
-            "from-blue-500 via-indigo-600 to-violet-800",
+        accent: "from-blue-500 via-indigo-600 to-violet-800",
 
         url: "https://yourfarm.co.in/",
 
@@ -306,8 +281,7 @@ export const projects = [
 
         video: "/videos/yourfarm-web.mp4",
 
-        accent:
-            "from-blue-500 via-indigo-600 to-violet-800",
+        accent: "from-blue-500 via-indigo-600 to-violet-800",
 
         url: "https://iknits.pinnaclesystems.co.in/",
 
@@ -335,8 +309,7 @@ export const projects = [
 
         video: "/videos/yourfarm-web.mp4",
 
-        accent:
-            "from-blue-500 via-indigo-600 to-violet-800",
+        accent: "from-blue-500 via-indigo-600 to-violet-800",
 
         url: "https://ticketingsystem.pinnaclesystems.co.in/",
 
@@ -344,20 +317,15 @@ export const projects = [
     },
 ];
 
-
 export const experience = [
     {
         period: "2025 — Present",
         title: "React / React Native Developer",
-        text:
-            "Building responsive web applications and cross-platform mobile experiences.",
+        text: "Building responsive web applications and cross-platform mobile experiences.",
     },
     {
         period: "2023 — 2025",
         title: "Full Stack Developer",
-        text:
-            "Worked on reusable UI components, API integrations and production web applications.",
+        text: "Worked on reusable UI components, API integrations and production web applications.",
     },
 ];
-
-
